@@ -23,6 +23,10 @@ function sayName(){
 function goodBye(){
     return "Goodbye";
 }
+
+function callback(){
+    sayName()
+}
 greet(sayWorld)
 greet(sayName)
 
