@@ -19,6 +19,10 @@ function sayName(){
     console.log("Stephen");
 }
 
+
+function goodBye(){
+    return "Goodbye";
+}
 greet(sayWorld)
 greet(sayName)
 
